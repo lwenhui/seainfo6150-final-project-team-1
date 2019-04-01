@@ -1,0 +1,19 @@
+.header{
+    background-image: url('/assets/img/background/banner.jpg');
+    background-size: 100% 100%;
+    height: 28rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 0.8rem;
+    font-size: 2.8rem;
+}
+.item{
+    margin-left: 3%;
+    padding: 0.5%;
+    text-decoration: none;
+    color: white;
+}
+.item:hover{
+    text-decoration: underline;
+}

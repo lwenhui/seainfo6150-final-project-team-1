@@ -27,12 +27,16 @@ import Summary from './Order/Summary';
 import ThankYou from './Order/ThankYou';
 import NotFound from './NotFound/NotFound';
 
+import Header from './Header';
+
 let App = (props) => (
   <Router>
     <div className={styles.container}>
       {/* start example of link to route */}
       <Link to='/'>Home</Link>
       {/* end example of link to route */}
+
+      <Header/>
 
       {/* start list of product category links */}
       <Categories categories={Object.values(props.categories)} />
